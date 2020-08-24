@@ -23,9 +23,9 @@ pipelines:
         jobs:
           build_image:
             timeout: 0
-            elastic_profile_id: demo-app
-            #agents:
-            #- gocd-agent-669cc9b647-4nj2c
+            #elastic_profile_id: demo-app
+            agents:
+            - gocd-agent-d96ff8b57-gxjjk
             artifacts:
             - external:
                 id: bulletin-board
